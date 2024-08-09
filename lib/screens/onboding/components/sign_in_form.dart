@@ -6,8 +6,8 @@ import 'package:rive_animation/screens/entryPoint/entry_point.dart';
 
 class SignInForm extends StatefulWidget {
   const SignInForm({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   State<SignInForm> createState() => _SignInFormState();
@@ -62,6 +62,7 @@ class _SignInFormState extends State<SignInForm> {
               // Navigate & hide confetti
               Future.delayed(const Duration(seconds: 1), () {
                 // Navigator.pop(context);
+                if (!context.mounted) return;
                 Navigator.push(
                   context,
                   MaterialPageRoute(

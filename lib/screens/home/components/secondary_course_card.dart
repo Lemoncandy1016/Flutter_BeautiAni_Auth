@@ -3,11 +3,11 @@ import 'package:flutter_svg/svg.dart';
 
 class SecondaryCourseCard extends StatelessWidget {
   const SecondaryCourseCard({
-    Key? key,
+    super.key,
     required this.title,
     this.iconsSrc = "assets/icons/ios.svg",
     this.colorl = const Color(0xFF7553F6),
-  }) : super(key: key);
+  });
 
   final String title, iconsSrc;
   final Color colorl;

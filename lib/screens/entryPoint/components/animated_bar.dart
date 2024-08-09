@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class AnimatedBar extends StatelessWidget {
   const AnimatedBar({
-    Key? key,
+    super.key,
     required this.isActive,
-  }) : super(key: key);
+  });
 
   final bool isActive;
 
