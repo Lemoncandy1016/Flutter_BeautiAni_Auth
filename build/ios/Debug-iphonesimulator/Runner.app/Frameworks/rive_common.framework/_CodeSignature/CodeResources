@@ -6,11 +6,34 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		Kbs+3HGA0ytT93GP2xaoexmkJQ4=
+		8ryv45idbmKtB6YyijxHmANtSk0=
+		</data>
+		<key>rive_common_privacy.bundle/Info.plist</key>
+		<data>
+		zem9df0xdHuc15NFTYAcVQAK3Mw=
+		</data>
+		<key>rive_common_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		u3FBBI2JBIr2AeWIMZE9FfE7ncI=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>rive_common_privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			erl9b6dWKNuDyWwHEH8d2FqpxdGijd8ZYzAzt2YszdQ=
+			</data>
+		</dict>
+		<key>rive_common_privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4V4V9YwyXsJYWW1cfHRXiMz4avhJFHtEVMMTIHwNZcI=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

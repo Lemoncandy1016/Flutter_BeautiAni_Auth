@@ -1,1 +1,0 @@
- /Users/abuanwar/Documents/flutter/rive_animation/.dart_tool/flutter_build/c890f2d49cde47e38e066b0aedacfd00/native_assets.yaml: 
